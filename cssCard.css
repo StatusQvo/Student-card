@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Edu+NSW+ACT+Foundation&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Edu+NSW+ACT+Foundation&family=Roboto:ital@1&family=Ubuntu&display=swap');
+
+
+
+/* common Styles   */
+.allbody{
+background: url(https://i.ibb.co/B43YzRs/20525252f7.jpg);
+background-size: cover;
+} 
+
+.paragraph{
+margin-left: 9px;
+margin-right: 9px;
+text-align: center;
+font-family:'Ubuntu', sans-serif;
+white-space: unset;
+background:white;
+height: 35px;
+padding-bottom:20px;
+padding-top: 5px;
+}
+
+.alt-text{
+font-family: 'Amatic SC', cursive;
+}
+
+.regular-text{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+white-space: unset;
+font-size: 14px;
+}
+
+.list-items{
+list-style-image: url(https://i.ibb.co/JrzP3dM/list.png);
+}
+
+.regular-block{
+margin-right: 7px;
+margin-left: 7px;
+box-shadow: 0 -2px 2px rgb(114, 113, 116) inset;  
+border-radius: 0px 0px 10px 10px;
+border-left: solid #111212 2px;
+border-right: solid #111212 2px;
+border-bottom: solid #111212 2px;
+background-color: #dad8d8;
+min-height: 150px;
+}
+
+
+.info-1line{
+width: 100%;
+height: 7px;
+background: linear-gradient(90deg, #23262a 0%, rgba(0,212,255,1) 35%, white 100%);
+}
+  
+.info-2line{
+width: 100%;
+height: 3px;
+background: rgb(42, 39, 40) ;
+}
+
+/*   Первый блок    */
+
+
+.info-photo {
+width: 150px;
+height: 180px;
+margin: 20px 20px;
+border-top: #708090 groove 10px;
+border-bottom: #708090 groove 10px;
+border-left:#5F9EA0 dotted 5px;
+border-right:#5F9EA0 dotted 5px;
+border-radius: 30%;
+float: left;
+}
+
+
+/* - информационная ТАБЛИЦА рядом с аватаром */
+.info-table{
+border-spacing: 10px;
+}
+
+.info-table tr:nth-child(odd){
+font-weight:bold;
+}
+
+
+.info-table ul{
+list-style-type: none;
+padding-inline-start: 10px;
+margin-block-start: 5px;
+margin-block-end: 5px;
+}
+
+/*---Второй блок------*/
+.targets ul{
+margin-top: 0;
+padding-top: 15px;
+}
+
+
+/*---Третий блок------*/
+.daycell{
+border-radius: 35%;
+border: #aaaaaa 1px solid;
+box-shadow: 1px 1px 2px #aaaaaa;
+}
+
+.time-table{
+margin-top: 0;
+padding-top: 15px;
+margin: 0px auto 0px auto;
+border-spacing: 10px;
+font-weight:bold;
+}
+
+.time-table tr:nth-child(1) td:first-child{
+color: #3b4044;
+}
+
+.time-table tr:nth-child(2) td:first-child{
+color: #5b6064;
+}
+
+.time-table tr:nth-child(3) td:first-child{
+color: #7b8084;
+}
+
+.time-table tr:nth-child(4) td:first-child{
+color: #8b9094;
+}
+
+.time-table tr:nth-child(5) td:first-child{
+color: #9ba0a4;
+}
+
+.time-table tr:nth-child(6) td:first-child{
+color: #9e91d0;
+}
+
+.time-table tr:nth-child(7) td:first-child{
+color: #9e91d0;
+ }
+
+ 
+ /*---Четвертый блок------*/
+.cources-table{
+margin-top: 0;
+padding-top: 30px;
+padding-bottom: 30px;
+margin: 0px auto 0px auto;
+text-align: center;
+border-spacing: 0;
+color:#5b6064;
+}
+
+.cources-table td{
+padding: 10px 10px 5px 10px;
+}
+
+.cources-table th{
+font-weight: bold;
+color: #111212;
+border-bottom: #5b6064 2px solid
+}
+
+.cources-table tr:nth-child(2) td:first-child{
+text-decoration: underline;
+}
+
+.cources-table tr:nth-child(3) td:first-child{
+text-decoration: underline;
+}
+
+.cources-table td:nth-child(2){
+padding-left: 30px;
+padding-right: 30px;
+}
+
+
+/*---Пятый блок------*/
+.contact-text{
+font-size: 10px;
+color: #717272;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+font-weight: 600;
+}
+
+.contacts{
+display:flex;
+}
+
+.central-wrap{
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto;
+display:flex;
+}
+
+.tg{
+width:150px;
+text-align: center;
+}
+
+.git{
+width:150px;
+text-align: center;
+}
+
+.tg-img{
+margin-right: auto;
+margin-left: auto;
+display: block;
+width:30px;
+height:30px;
+}
+
+.git-img{
+margin-right: auto;
+margin-left: auto;
+display: block;
+width:30px;
+height:30px;
+}
+
+
+.tg-img:hover{
+opacity:0.6;
+}
+
+.git-img{
+width:30px;
+height:30px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.git-img:hover{
+opacity:0.6;
+}
+
+a{
+color: #5b6064;
+text-decoration: none; 
+}
+
+a:hover{
+color: #8b9ba7; 
+}
+
+/* footer  */
+
+.site-footer{
+height: 200px;}
+
+
+
+ /*  Медиа           */ 
+ @media (max-width:500px) {
+.paragraph h2{
+text-align: center;
+white-space:unset;
+margin: 20px;}
+ 
+ 
+.info-table {
+text-align: center;
+font-size: small;
+}
+ 
+.photo-container{
+display:flex;
+justify-content: center;
+}
+
+.targets li{
+font-size: small;
+} 
+  
+.cources-table td{
+font-size: small;
+}
+}
